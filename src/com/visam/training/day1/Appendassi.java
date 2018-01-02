@@ -1,4 +1,5 @@
 //import java.lang.StringBuffer;
+package com.visam.training.day1;
 public class Appendassi {
 public static void main (String args[]) {
 	String s1 = "Hello";

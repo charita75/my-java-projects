@@ -1,4 +1,4 @@
-
+package com.visam.training.day1;
 public class Appendstring {
 
 	public void appendMethod(String s1, String s2) {

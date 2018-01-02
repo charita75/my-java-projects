@@ -7,13 +7,7 @@ public class Student {
 	private boolean feedback;
 	private float marks;
 
-	public void setId(int id) {
-		this.id = id;
-	}
 	
-	public void setName(String name) {
-		this.name=name;
-	}
 	
 	public int getId() {
 		return id;
@@ -22,15 +16,7 @@ public class Student {
 	public String getName() {
 		return name;
 	}
-
-	public void setFeedback(boolean feedback) {
-		this.feedback = feedback;
-	}
-
-	public void setMarks(float marks) {
-		this.marks = marks;
-	}
-
+	
 	public float getMarks() {
 		return marks;
 	}
@@ -39,6 +25,23 @@ public class Student {
 		return feedback;
 	}
 	
+	public void setId(int id) {
+		this.id = id;
+	}
+	
+	public void setName(String name) {
+		this.name=name;
+	}
+	
+	public void setFeedback(boolean feedback) {
+		this.feedback = feedback;
+	}
+
+	public void setMarks(float marks) {
+		this.marks = marks;
+	}
+
+
 	@Override
 	public boolean equals(Object object) {
 

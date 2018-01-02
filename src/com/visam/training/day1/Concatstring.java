@@ -1,4 +1,4 @@
-
+package com.visam.training.day1;
 public class Concatstring {
 	
 	private void stringConcat(String str, String str1) {

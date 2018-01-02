@@ -8,7 +8,7 @@ public class TestClass {
 		Student s2 = new Student();
 
 		s1.setFeedback(true);
-		s2.setFeedback(false);
+		s2.setFeedback(true);
 		s2.setName("name1");
 		s1.setName("name1");
 
