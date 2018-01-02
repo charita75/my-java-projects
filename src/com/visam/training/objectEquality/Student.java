@@ -62,7 +62,6 @@ public class Student {
 		if (marks != ((Student) object).getMarks()) {
 			return false;
 	}
-
 		return true;
 
 	}
