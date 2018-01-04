@@ -67,6 +67,21 @@ public class Student {
 		}
 		return true;
 	}
+	
+	@Override
+    public int hashCode() {
+		int result,res1,res2,res3;
+		result = ((name == null) ? 0 : name.hashCode());
+		
+		res1 = Integer.valueOf(id).hashCode();
+		
+		res2 = Boolean.hashCode(feedback);
+
+		res3 = Float.hashCode(marks);
+       
+		
+		return result+res1+res2+res3;
+    }
 
 	
 }	
