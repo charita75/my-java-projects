@@ -82,7 +82,6 @@ public class Student {
 		
 		return result+res1+res2+res3;
     }
-
 	
 }	
 	
