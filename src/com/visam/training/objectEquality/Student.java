@@ -79,7 +79,6 @@ public class Student {
 
 		res3 = Float.hashCode(marks);
        
-		
 		return result+res1+res2+res3;
     }
 	
