@@ -1,4 +1,4 @@
-package com.visa.training.day5;
+package com.visam.training.day5;
 
 public class WordCountUsingIndex {
 
