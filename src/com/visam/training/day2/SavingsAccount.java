@@ -1,4 +1,4 @@
-package day2;
+package com.visam.training.day2;
 
 class BankAccount 
 {
